@@ -30,7 +30,7 @@ while counter_beta<=mp
         sigma=1;
         w=normrnd(mu,sigma,T,1);
         u=zeros(T,1);
-        eps=normrnd(0,1,T,1);
+        eps=normrnd(0,1,T,1); %distribution of the residuals (change for Cauchy, Student's t, etc).
         POS_sim=zeros(m_1,1);
         
         x(1)=w(1)/sqrt(1-theta^2);
