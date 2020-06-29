@@ -8,3 +8,5 @@ under the assumption that the errors are independently distributed.
 2(a)-Par.slurm is to be accompanied with PCCPOS_HPC.m.
 
 2(b)-wrapperPar.m is to be accompanie with Par.slurm and PCCPOS_HPC.m.
+
+3-BonferroniCausalityTest.R is the code for the power function of the bound-type procedure for testing the null-hypothesis of Granger non-causality.
