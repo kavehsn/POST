@@ -15,4 +15,8 @@ E.g. SLURM command: sbatch -N 1 -p par6.q --exclusive -a 1-12 par.slurm
 
 4- SimAnneal_POS.m is the code for the simulated annealing algorithm for the porjection technique of the  POS-based tests  
 
+4(a)- wrapperParAnnealing.m is the wrapper for SimAnneal_POS.m
+
 5- ProjectionTechnique_GridSearch.m is the code for the projection technique using the grid search algorithm.
+
+
